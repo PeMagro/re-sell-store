@@ -102,14 +102,12 @@ a {
     float: left;
     margin-left: 5%;
     margin-top: 35px;
-    font-family: 'Yanone Kaffeesatz';
 }
 
 #menu_superior a:hover {
     color: #EEB44C;
     border-bottom: #EEB44C solid 3px;
     transition: 0.5s border;
-    font-family: 'Yanone Kaffeesatz';
 }
 
 #menu_superior p:hover {
@@ -218,25 +216,17 @@ a {
     margin-left: 5%;
 }
 
+#banner {
+    position: relative;
+    margin-top: 20px;
+}
+
 #fundo {
     position: relative;
     width: 90%;
     height: auto;
     margin: auto;
     background-color: #fff;
-}
-
-#banner {
-    position: relative;
-    width: 1200px;
-    height: 500px;
-    margin-top: 20px;
-}
-
-#fundo_menu_lateral {
-    position: relative;
-    float: left;
-    width: 100%;
 }
 
 #menu_lateral {
@@ -268,6 +258,13 @@ a {
     color: #EEB44C;
     border-bottom: #EEB44C solid 3px;
     transition: 0.5s border;
+}
+
+.titulo {
+    position: relative;
+    text-align: center;
+    margin-top: 5%;
+    font-size: 60px;
 }
 
 .efeitoimg:hover {
@@ -421,7 +418,7 @@ button:active {
 
 #camisetas3 article div {
     position: relative;
-    margin-right: 40px;
+    margin-left: 120px;
     margin-top: 80px;
     position: relative;
     top: 0
@@ -434,47 +431,6 @@ button:active {
 }
 
 #camisetas3 article h4 {
-    font-family: 'Lato';
-    font-size: 25px;
-}
-
-#camisetas4 {
-    position: relative;
-    float: left;
-    margin-top: 5%;
-    margin-bottom: 0%;
-    text-align: left;
-}
-
-.camisetas4 {
-    position: relative;
-    font-size: 60px;
-    font-weight: 700;
-    color: #000;
-}
-
-#camisetas4 article h1 {
-    font-family: 'Reem Kufi';
-    margin-top: 200px;
-    font-size: 35px;
-    margin-left: 40px;
-}
-
-#camisetas4 article div {
-    position: relative;
-    margin-right: 40px;
-    margin-top: 80px;
-    position: relative;
-    top: 0
-}
-
-#camisetas4 article div:hover {
-    top: -4px;
-    box-shadow: 0 4px 4px #999;
-    transition: all .2s ease-in-out
-}
-
-#camisetas4 article h4 {
     font-family: 'Lato';
     font-size: 25px;
 }
@@ -559,7 +515,8 @@ button:active {
 #moletons3 {
     position: relative;
     float: left;
-    margin: 0%;
+    margin-top: 5%;
+    margin-bottom: 0%;
     text-align: left;
 }
 
@@ -572,12 +529,14 @@ button:active {
 
 #moletons3 article h1 {
     font-family: 'Reem Kufi';
+    margin-top: 200px;
     font-size: 35px;
+    margin-left: 40px;
 }
 
 #moletons3 article div {
     position: relative;
-    margin-right: 40px;
+    margin-left: 120px;
     margin-top: 80px;
     position: relative;
     top: 0
@@ -590,44 +549,6 @@ button:active {
 }
 
 #moletons3 article h4 {
-    font-family: 'Lato';
-    font-size: 25px;
-}
-
-#moletons4 {
-    position: relative;
-    float: left;
-    margin: 0%;
-    text-align: left;
-}
-
-.moletons4 {
-    position: relative;
-    font-size: 60px;
-    font-weight: 700;
-    color: #000;
-}
-
-#moletons4 article h1 {
-    font-family: 'Reem Kufi';
-    font-size: 35px;
-}
-
-#moletons4 article div {
-    position: relative;
-    margin-right: 40px;
-    margin-top: 80px;
-    position: relative;
-    top: 0
-}
-
-#moletons4 article div:hover {
-    top: -4px;
-    box-shadow: 0 4px 4px #999;
-    transition: all .2s ease-in-out
-}
-
-#moletons4 article h4 {
     font-family: 'Lato';
     font-size: 25px;
 }
@@ -713,8 +634,8 @@ button:active {
 #calcas3 {
     position: relative;
     float: left;
-    margin: 0%;
-    margin-top: 2%;
+    margin-top: 5%;
+    margin-bottom: 0%;
     text-align: left;
 }
 
@@ -732,7 +653,7 @@ button:active {
 
 #calcas3 article div {
     position: relative;
-    margin-right: 40px;
+    margin-left: 120px;
     margin-top: 80px;
     position: relative;
     top: 0
@@ -745,45 +666,6 @@ button:active {
 }
 
 #calcas3 article h4 {
-    font-family: 'Lato';
-    font-size: 25px;
-}
-
-#calcas4 {
-    position: relative;
-    float: left;
-    margin: 0%;
-    margin-top: 2%;
-    text-align: left;
-}
-
-.calcas4 {
-    position: relative;
-    font-size: 60px;
-    font-weight: 700;
-    color: #000;
-}
-
-#calcas4 article h1 {
-    font-family: 'Reem Kufi';
-    font-size: 35px;
-}
-
-#calcas4 article div {
-    position: relative;
-    margin-right: 40px;
-    margin-top: 80px;
-    position: relative;
-    top: 0
-}
-
-#calcas4 article div:hover {
-    top: -4px;
-    box-shadow: 0 4px 4px #999;
-    transition: all .2s ease-in-out
-}
-
-#calcas4 article h4 {
     font-family: 'Lato';
     font-size: 25px;
 }
@@ -869,8 +751,8 @@ button:active {
 #calcados3 {
     position: relative;
     float: left;
-    margin: 0%;
-    margin-top: 2%;
+    margin-top: 5%;
+    margin-bottom: 0%;
     text-align: left;
 }
 
@@ -888,7 +770,7 @@ button:active {
 
 #calcados3 article div {
     position: relative;
-    margin-right: 40px;
+    margin-left: 120px;
     margin-top: 80px;
     position: relative;
     top: 0
@@ -901,45 +783,6 @@ button:active {
 }
 
 #calcados3 article h4 {
-    font-family: 'Lato';
-    font-size: 25px;
-}
-
-#calcados4 {
-    position: relative;
-    float: left;
-    margin: 0%;
-    margin-top: 2%;
-    text-align: left;
-}
-
-.calcados4 {
-    position: relative;
-    font-size: 60px;
-    font-weight: 700;
-    color: #000;
-}
-
-#calcados4 article h1 {
-    font-family: 'Reem Kufi';
-    font-size: 35px;
-}
-
-#calcados4 article div {
-    position: relative;
-    margin-right: 40px;
-    margin-top: 80px;
-    position: relative;
-    top: 0
-}
-
-#calcados4 article div:hover {
-    top: -4px;
-    box-shadow: 0 4px 4px #999;
-    transition: all .2s ease-in-out
-}
-
-#calcados4 article h4 {
     font-family: 'Lato';
     font-size: 25px;
 }

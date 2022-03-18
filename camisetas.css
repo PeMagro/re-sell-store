@@ -102,14 +102,12 @@ a {
     float: left;
     margin-left: 5%;
     margin-top: 35px;
-    font-family: 'Yanone Kaffeesatz';
 }
 
 #menu_superior a:hover {
     color: #EEB44C;
     border-bottom: #EEB44C solid 3px;
     transition: 0.5s border;
-    font-family: 'Yanone Kaffeesatz';
 }
 
 #menu_superior p:hover {
@@ -226,13 +224,6 @@ a {
     background-color: #fff;
 }
 
-#banner {
-    position: relative;
-    width: 1200px;
-    height: 500px;
-    margin-top: 20px;
-}
-
 #fundo_menu_lateral {
     position: relative;
     float: left;
@@ -270,6 +261,13 @@ a {
     transition: 0.5s border;
 }
 
+.titulo {
+    position: relative;
+    text-align: center;
+    margin-top: 5%;
+    font-size: 60px;
+}
+
 .efeitoimg:hover {
     top: -4px;
     box-shadow: 0 4px 4px #999;
@@ -290,26 +288,26 @@ p img:hover {
     background-color: #fff;
 }
 
-#camisetas1 {
+#nike1 {
     position: relative;
     float: left;
     margin: 0%;
     text-align: left;
 }
 
-.camisetas1 {
+.nike1 {
     position: relative;
     font-size: 60px;
     font-weight: 700;
     color: #000;
 }
 
-#camisetas1 article h1 {
+#nike1 article h1 {
     font-family: 'Reem Kufi';
     font-size: 35px;
 }
 
-#camisetas1 article div {
+#nike1 article div {
     position: relative;
     margin-right: 40px;
     margin-top: 80px;
@@ -317,13 +315,13 @@ p img:hover {
     top: 0
 }
 
-#camisetas1 article div:hover {
+#nike1 article div:hover {
     top: -4px;
     box-shadow: 0 4px 4px #999;
     transition: all .2s ease-in-out
 }
 
-#camisetas1 article h4 {
+#nike1 article h4 {
     font-family: 'Lato';
     font-size: 25px;
 }
@@ -356,7 +354,7 @@ button:active {
     transform: translateY(-1px);
 }
 
-#camisetas2 {
+#nike2 {
     position: relative;
     float: left;
     margin-top: 5%;
@@ -364,21 +362,21 @@ button:active {
     text-align: left;
 }
 
-.camisetas2 {
+.nike2 {
     position: relative;
     font-size: 60px;
     font-weight: 700;
     color: #000;
 }
 
-#camisetas2 article h1 {
+#nike2 article h1 {
     font-family: 'Reem Kufi';
     margin-top: 200px;
     font-size: 35px;
     margin-left: 40px;
 }
 
-#camisetas2 article div {
+#nike2 article div {
     position: relative;
     margin-right: 40px;
     margin-top: 80px;
@@ -386,18 +384,18 @@ button:active {
     top: 0
 }
 
-#camisetas2 article div:hover {
+#nike2 article div:hover {
     top: -4px;
     box-shadow: 0 4px 4px #999;
     transition: all .2s ease-in-out
 }
 
-#camisetas2 article h4 {
+#nike2 article h4 {
     font-family: 'Lato';
     font-size: 25px;
 }
 
-#camisetas3 {
+#nike3 {
     position: relative;
     float: left;
     margin-top: 5%;
@@ -405,21 +403,59 @@ button:active {
     text-align: left;
 }
 
-.camisetas3 {
+.nike3 {
     position: relative;
     font-size: 60px;
     font-weight: 700;
     color: #000;
 }
 
-#camisetas3 article h1 {
+#nike3 article h1 {
     font-family: 'Reem Kufi';
     margin-top: 200px;
     font-size: 35px;
     margin-left: 40px;
 }
 
-#camisetas3 article div {
+#nike3 article div {
+    position: relative;
+    margin-left: 120px;
+    margin-top: 80px;
+    position: relative;
+    top: 0
+}
+
+#nike3 article div:hover {
+    top: -4px;
+    box-shadow: 0 4px 4px #999;
+    transition: all .2s ease-in-out
+}
+
+#nike3 article h4 {
+    font-family: 'Lato';
+    font-size: 25px;
+}
+
+#adidas1 {
+    position: relative;
+    float: left;
+    margin: 0%;
+    text-align: left;
+}
+
+.adidas1 {
+    position: relative;
+    font-size: 60px;
+    font-weight: 700;
+    color: #000;
+}
+
+#adidas1 article h1 {
+    font-family: 'Reem Kufi';
+    font-size: 35px;
+}
+
+#adidas1 article div {
     position: relative;
     margin-right: 40px;
     margin-top: 80px;
@@ -427,18 +463,18 @@ button:active {
     top: 0
 }
 
-#camisetas3 article div:hover {
+#adidas1 article div:hover {
     top: -4px;
     box-shadow: 0 4px 4px #999;
     transition: all .2s ease-in-out
 }
 
-#camisetas3 article h4 {
+#adidas1 article h4 {
     font-family: 'Lato';
     font-size: 25px;
 }
 
-#camisetas4 {
+#adidas2 {
     position: relative;
     float: left;
     margin-top: 5%;
@@ -446,21 +482,21 @@ button:active {
     text-align: left;
 }
 
-.camisetas4 {
+.adidas2 {
     position: relative;
     font-size: 60px;
     font-weight: 700;
     color: #000;
 }
 
-#camisetas4 article h1 {
+#adidas2 article h1 {
     font-family: 'Reem Kufi';
     margin-top: 200px;
     font-size: 35px;
     margin-left: 40px;
 }
 
-#camisetas4 article div {
+#adidas2 article div {
     position: relative;
     margin-right: 40px;
     margin-top: 80px;
@@ -468,76 +504,78 @@ button:active {
     top: 0
 }
 
-#camisetas4 article div:hover {
+#adidas2 article div:hover {
     top: -4px;
     box-shadow: 0 4px 4px #999;
     transition: all .2s ease-in-out
 }
 
-#camisetas4 article h4 {
+#adidas2 article h4 {
     font-family: 'Lato';
     font-size: 25px;
 }
 
-#moletons1 {
+#adidas3 {
     position: relative;
     float: left;
-    margin: 0%;
-    margin-top: 2%;
+    margin-top: 5%;
+    margin-bottom: 0%;
     text-align: left;
 }
 
-.moletons1 {
+.adidas3 {
     position: relative;
     font-size: 60px;
     font-weight: 700;
     color: #000;
 }
 
-#moletons1 article h1 {
+#adidas3 article h1 {
     font-family: 'Reem Kufi';
+    margin-top: 200px;
     font-size: 35px;
+    margin-left: 40px;
 }
 
-#moletons1 article div {
+#adidas3 article div {
     position: relative;
-    margin-right: 40px;
+    margin-left: 120px;
     margin-top: 80px;
     position: relative;
     top: 0
 }
 
-#moletons1 article div:hover {
+#adidas3 article div:hover {
     top: -4px;
     box-shadow: 0 4px 4px #999;
     transition: all .2s ease-in-out
 }
 
-#moletons1 article h4 {
+#adidas3 article h4 {
     font-family: 'Lato';
     font-size: 25px;
 }
 
-#moletons2 {
+#puma1 {
     position: relative;
     float: left;
     margin: 0%;
     text-align: left;
 }
 
-.moletons2 {
+.puma1 {
     position: relative;
     font-size: 60px;
     font-weight: 700;
     color: #000;
 }
 
-#moletons2 article h1 {
+#puma1 article h1 {
     font-family: 'Reem Kufi';
     font-size: 35px;
 }
 
-#moletons2 article div {
+#puma1 article div {
     position: relative;
     margin-right: 40px;
     margin-top: 80px;
@@ -545,37 +583,40 @@ button:active {
     top: 0
 }
 
-#moletons2 article div:hover {
+#puma1 article div:hover {
     top: -4px;
     box-shadow: 0 4px 4px #999;
     transition: all .2s ease-in-out
 }
 
-#moletons2 article h4 {
+#puma1 article h4 {
     font-family: 'Lato';
     font-size: 25px;
 }
 
-#moletons3 {
+#puma2 {
     position: relative;
     float: left;
-    margin: 0%;
+    margin-top: 5%;
+    margin-bottom: 0%;
     text-align: left;
 }
 
-.moletons3 {
+.puma2 {
     position: relative;
     font-size: 60px;
     font-weight: 700;
     color: #000;
 }
 
-#moletons3 article h1 {
+#puma2 article h1 {
     font-family: 'Reem Kufi';
+    margin-top: 200px;
     font-size: 35px;
+    margin-left: 40px;
 }
 
-#moletons3 article div {
+#puma2 article div {
     position: relative;
     margin-right: 40px;
     margin-top: 80px;
@@ -583,363 +624,54 @@ button:active {
     top: 0
 }
 
-#moletons3 article div:hover {
+#puma2 article div:hover {
     top: -4px;
     box-shadow: 0 4px 4px #999;
     transition: all .2s ease-in-out
 }
 
-#moletons3 article h4 {
+#puma2 article h4 {
     font-family: 'Lato';
     font-size: 25px;
 }
 
-#moletons4 {
+#puma3 {
     position: relative;
     float: left;
-    margin: 0%;
+    margin-top: 5%;
+    margin-bottom: 0%;
     text-align: left;
 }
 
-.moletons4 {
+.puma3 {
     position: relative;
     font-size: 60px;
     font-weight: 700;
     color: #000;
 }
 
-#moletons4 article h1 {
+#puma3 article h1 {
     font-family: 'Reem Kufi';
+    margin-top: 200px;
     font-size: 35px;
+    margin-left: 40px;
 }
 
-#moletons4 article div {
+#puma3 article div {
     position: relative;
-    margin-right: 40px;
+    margin-left: 120px;
     margin-top: 80px;
     position: relative;
     top: 0
 }
 
-#moletons4 article div:hover {
+#puma3 article div:hover {
     top: -4px;
     box-shadow: 0 4px 4px #999;
     transition: all .2s ease-in-out
 }
 
-#moletons4 article h4 {
-    font-family: 'Lato';
-    font-size: 25px;
-}
-
-#calcas1 {
-    position: relative;
-    float: left;
-    margin: 0%;
-    margin-top: 2%;
-    text-align: left;
-}
-
-.calcas1 {
-    position: relative;
-    font-size: 60px;
-    font-weight: 700;
-    color: #000;
-}
-
-#calcas1 article h1 {
-    font-family: 'Reem Kufi';
-    font-size: 35px;
-}
-
-#calcas1 article div {
-    position: relative;
-    margin-right: 40px;
-    margin-top: 80px;
-    position: relative;
-    top: 0
-}
-
-#calcas1 article div:hover {
-    top: -4px;
-    box-shadow: 0 4px 4px #999;
-    transition: all .2s ease-in-out
-}
-
-#calcas1 article h4 {
-    font-family: 'Lato';
-    font-size: 25px;
-}
-
-#calcas2 {
-    position: relative;
-    float: left;
-    margin: 0%;
-    margin-top: 2%;
-    text-align: left;
-}
-
-.calcas2 {
-    position: relative;
-    font-size: 60px;
-    font-weight: 700;
-    color: #000;
-}
-
-#calcas2 article h1 {
-    font-family: 'Reem Kufi';
-    font-size: 35px;
-}
-
-#calcas2 article div {
-    position: relative;
-    margin-right: 40px;
-    margin-top: 80px;
-    position: relative;
-    top: 0
-}
-
-#calcas2 article div:hover {
-    top: -4px;
-    box-shadow: 0 4px 4px #999;
-    transition: all .2s ease-in-out
-}
-
-#calcas2 article h4 {
-    font-family: 'Lato';
-    font-size: 25px;
-}
-
-#calcas3 {
-    position: relative;
-    float: left;
-    margin: 0%;
-    margin-top: 2%;
-    text-align: left;
-}
-
-.calcas3 {
-    position: relative;
-    font-size: 60px;
-    font-weight: 700;
-    color: #000;
-}
-
-#calcas3 article h1 {
-    font-family: 'Reem Kufi';
-    font-size: 35px;
-}
-
-#calcas3 article div {
-    position: relative;
-    margin-right: 40px;
-    margin-top: 80px;
-    position: relative;
-    top: 0
-}
-
-#calcas3 article div:hover {
-    top: -4px;
-    box-shadow: 0 4px 4px #999;
-    transition: all .2s ease-in-out
-}
-
-#calcas3 article h4 {
-    font-family: 'Lato';
-    font-size: 25px;
-}
-
-#calcas4 {
-    position: relative;
-    float: left;
-    margin: 0%;
-    margin-top: 2%;
-    text-align: left;
-}
-
-.calcas4 {
-    position: relative;
-    font-size: 60px;
-    font-weight: 700;
-    color: #000;
-}
-
-#calcas4 article h1 {
-    font-family: 'Reem Kufi';
-    font-size: 35px;
-}
-
-#calcas4 article div {
-    position: relative;
-    margin-right: 40px;
-    margin-top: 80px;
-    position: relative;
-    top: 0
-}
-
-#calcas4 article div:hover {
-    top: -4px;
-    box-shadow: 0 4px 4px #999;
-    transition: all .2s ease-in-out
-}
-
-#calcas4 article h4 {
-    font-family: 'Lato';
-    font-size: 25px;
-}
-
-#calcados1 {
-    position: relative;
-    float: left;
-    margin: 0%;
-    margin-top: 2%;
-    text-align: left;
-}
-
-.calcados1 {
-    position: relative;
-    font-size: 60px;
-    font-weight: 700;
-    color: #000;
-}
-
-#calcados1 article h1 {
-    font-family: 'Reem Kufi';
-    font-size: 35px;
-}
-
-#calcados1 article div {
-    position: relative;
-    margin-right: 40px;
-    margin-top: 80px;
-    position: relative;
-    top: 0
-}
-
-#calcados1 article div:hover {
-    top: -4px;
-    box-shadow: 0 4px 4px #999;
-    transition: all .2s ease-in-out
-}
-
-#calcados1 article h4 {
-    font-family: 'Lato';
-    font-size: 25px;
-}
-
-#calcados2 {
-    position: relative;
-    float: left;
-    margin: 0%;
-    margin-top: 2%;
-    text-align: left;
-}
-
-.calcados2 {
-    position: relative;
-    font-size: 60px;
-    font-weight: 700;
-    color: #000;
-}
-
-#calcados2 article h1 {
-    font-family: 'Reem Kufi';
-    font-size: 35px;
-}
-
-#calcados2 article div {
-    position: relative;
-    margin-right: 40px;
-    margin-top: 80px;
-    position: relative;
-    top: 0
-}
-
-#calcados2 article div:hover {
-    top: -4px;
-    box-shadow: 0 4px 4px #999;
-    transition: all .2s ease-in-out
-}
-
-#calcados2 article h4 {
-    font-family: 'Lato';
-    font-size: 25px;
-}
-
-#calcados3 {
-    position: relative;
-    float: left;
-    margin: 0%;
-    margin-top: 2%;
-    text-align: left;
-}
-
-.calcados3 {
-    position: relative;
-    font-size: 60px;
-    font-weight: 700;
-    color: #000;
-}
-
-#calcados3 article h1 {
-    font-family: 'Reem Kufi';
-    font-size: 35px;
-}
-
-#calcados3 article div {
-    position: relative;
-    margin-right: 40px;
-    margin-top: 80px;
-    position: relative;
-    top: 0
-}
-
-#calcados3 article div:hover {
-    top: -4px;
-    box-shadow: 0 4px 4px #999;
-    transition: all .2s ease-in-out
-}
-
-#calcados3 article h4 {
-    font-family: 'Lato';
-    font-size: 25px;
-}
-
-#calcados4 {
-    position: relative;
-    float: left;
-    margin: 0%;
-    margin-top: 2%;
-    text-align: left;
-}
-
-.calcados4 {
-    position: relative;
-    font-size: 60px;
-    font-weight: 700;
-    color: #000;
-}
-
-#calcados4 article h1 {
-    font-family: 'Reem Kufi';
-    font-size: 35px;
-}
-
-#calcados4 article div {
-    position: relative;
-    margin-right: 40px;
-    margin-top: 80px;
-    position: relative;
-    top: 0
-}
-
-#calcados4 article div:hover {
-    top: -4px;
-    box-shadow: 0 4px 4px #999;
-    transition: all .2s ease-in-out
-}
-
-#calcados4 article h4 {
+#puma3 article h4 {
     font-family: 'Lato';
     font-size: 25px;
 }
